@@ -1,0 +1,30 @@
+body {
+	background-image: url('../images/bg-service.gif');
+	background-size: 150px;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+h1{
+	color: black; 
+	font-weight: bolder;
+	text-shadow: 4px 4px 1px #a5a4a4;
+}
+
+.text {
+	padding: 5px;
+	margin:15px 0px;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 4px 4px 1px #a5a4a4;
+    padding: 0;
+    margin: 2px 0px;
+}

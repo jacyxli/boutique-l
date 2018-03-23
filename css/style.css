@@ -1,0 +1,71 @@
+body {
+	background-color:#F0F0FF;
+	font-family: ’ヒラギノ角ゴ Pro W3’, ‘Hiragino Kaku Gothic Pro’, メイリオ, Meiryo, Osaka, ‘MS Pゴシック’, ‘MS PGothic’, sans-serif;
+}
+
+/* nav */
+.language-picker {
+    flex-direction: row!important;
+    list-style-type: none;
+    background-image: url(../images/nav.jpeg);
+    width: fit-content;
+    margin: 0 0 0 auto;
+    padding: 0 5px;
+    display: flex;
+}
+
+.language-picker li{
+	display: block;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+ li a img {
+	height: 5%;
+}
+
+/* footer */
+footer {
+	display: block;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+.copyright {
+	color: white;
+	background-color: rgba(155, 144, 47, .5);
+	width: fit-content;
+	border: #9b902f 2px solid;
+	margin:0 0 5 auto;
+	padding: 1px 3px;
+}
+
+/* prepare the selectors to add a stroke to */
+.stroke-single,
+.stroke-double {
+  position: relative;
+  background: transparent;
+  z-index: 0;
+}
+/* add a single stroke */
+.stroke-single:before,
+.stroke-double:before {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.2em #bada55; /* Chris Coyier's favorite color! */
+  left: 0;
+  z-index: -1;
+}
+/* add a double stroke */
+.stroke-double:after {
+  content: attr(title);
+  position: absolute;
+  -webkit-text-stroke: 0.4em #778B37;
+  left: 0;
+  z-index: -2;
+}

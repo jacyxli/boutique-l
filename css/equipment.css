@@ -1,0 +1,47 @@
+body {
+	bgcolor:#F0F0FF;
+	background-image: url('../images/bg-equip.gif');
+}
+
+.wrapper{
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.title {
+	background-color:rgb(1,7,78);
+	width: fit-content;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.title h1{
+	color: red; 
+	-webkit-text-fill-color: red; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: white;
+	display: inline;
+    margin-right: 5px;
+}
+
+.title img{
+	display: inline;
+}
+
+.text {
+	padding: 5px;
+}
+
+
+.text p {
+	color: rgb(250, 234, 55); 
+	font-size: 18px;
+	font-weight: bolder;
+	-webkit-text-fill-color: rgb(250, 234, 55); /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+	text-shadow: 3px 3px 1px grey;
+	padding: 0;
+	margin: 0;
+}

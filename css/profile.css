@@ -1,0 +1,35 @@
+body {
+	background-image: url('../images/background-pink.jpeg');
+	background-size: 150px;
+}
+
+.profile-pic{
+	width: 60%;
+	background-color: grey;
+	margin: 50px auto;
+}
+
+.profile-pic img{
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	width: 300px;
+}
+
+.content {
+	background-color: rgba(90, 24, 239, 0.7);
+	width: 80%;
+	border: white 2px solid;
+	margin: 50px auto;
+	padding: 0 50;
+
+}
+
+.content p{
+	font-size: 24px;
+	font-weight: bolder;
+	color:#4CAF50;
+	-webkit-text-fill-color: #4CAF50;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: white;
+}

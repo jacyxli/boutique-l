@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(181, 181, 181)!important;
+    background-image: none!important;
+}
+
+.container{
+	margin: auto;
+	width: 150px;
+}
+
+.welcome {
+	margin-top: 10px;
+}
+
+
+.icon {
+	background-color: rgb(90, 24, 239); /*purple color*/
+	height: 15px;
+	width: 15px;
+	margin: 50px 0px 10px 0px;
+
+}
+
+.vertical-menu {
+	margin: 10px;
+	font-weight: bolder;
+}
+
+.vertical-menu a {
+	color: white; /* white text color */
+	display: block; /* Make the links appear below each other */
+	padding:5px 0px;
+	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+}
+
+.vertical-menu a:hover {
+	color: #4CAF50;
+	-webkit-text-fill-color: #4CAF50; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+}
+
+.vertical-menu a.active {
+	color: #4CAF50;
+	-webkit-text-fill-color: #4CAF50; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+}
+
+
+.footer {
+	background-color: rgba(90, 24, 239, .7);
+	border: solid 2px yellow;
+}
+
+.counter {
+	display: block;
+	margin-bottom: 50px;
+}
+
+.counter img {
+	border: #C8E7B8 3px solid;
+	box-shadow: 1px 1px 5px black;
+}
+
+.text-style-1{
+	color: white;
+}
+
+.text-style-2{
+	color: rgb(240,245,77);
+	-webkit-text-fill-color: rgb(240,245,77); /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: rgb(41,124,234);
+}

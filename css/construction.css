@@ -1,0 +1,49 @@
+body {
+	bgcolor:#F0F0FF;
+	background-image: url('../images/bg-construction.jpeg');
+	background-size: 100px;
+}
+
+h1 {
+	color: rgb(238, 16, 38); /* Will override color (regardless of order) */
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	color: rgb(52, 236, 220); /* Will override color (regardless of order) */
+	font-size: 18px;
+	font-weight: bolder;
+	-webkit-text-fill-color: rgb(52, 236, 220); /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+	padding: 0;
+	margin: 0;
+}
+
+/* main */
+.content {
+	width: 60%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	width: 300px;
+}
+
+#blocker {
+	width: 30%;
+}
+
+#worker {
+	width: 80%;
+}
+
+.text {
+	padding: 5px;
+}
